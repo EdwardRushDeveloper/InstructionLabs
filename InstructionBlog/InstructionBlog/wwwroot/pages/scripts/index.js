@@ -18,7 +18,6 @@ Page.Class = function()
     _this.SearchButton.onclick = function()
     {
         var searchThis = "https://www.google.com/search?q=" + this.Search.value;
-
         window.open(searchThis);
 
     }
